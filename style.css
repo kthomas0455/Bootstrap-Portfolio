@@ -4,7 +4,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #000000;
-    background-image: url(../images/curls.png);
+    background-image: url(./images/curls.png);
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -70,7 +70,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #000000;
+  background-color: #800000!important;
   border-bottom: 2px solid #ccc;
 }
 
@@ -250,3 +250,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+.navbar-brand{
+  font-size: 34;
+  font-weight: bold;
+}
